@@ -39,8 +39,9 @@ header, footer, .message, .save, .delete, .newnotebutton, .newnote {
     list-style-type: none;
 }
 
-.headerlink, .save{
+.headerlink, a {
     padding-right: 20px;
+    text-decoration: none;
 }
 
 footer {
