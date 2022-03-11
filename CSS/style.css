@@ -62,7 +62,7 @@ footer {
     align-items: flex-start;
     border: 0;
     background-color: white;
-    font-size: 20px;
+    font-size: 20;
 }
 
 .newnote {
@@ -70,4 +70,14 @@ footer {
     padding-left: 200px;
     border: 0;
     background-color: white;
+}
+
+.noteslist {
+    list-style: none;
+}
+
+.mynotes {
+    color: red;
+    font-size: 20px;
+    padding-bottom: 10px;
 }
