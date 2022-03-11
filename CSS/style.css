@@ -5,7 +5,6 @@ html, body {
 }
 
 @media only screen and (max-width: 600px) {
-    
     body {
         max-width: 550px;
     }
@@ -14,10 +13,6 @@ html, body {
         display: flex;
         align-items: center;
         flex-direction: column;
-    }
-
-    .notetakingarea {
-
     }
 }
 
@@ -94,8 +89,8 @@ footer {
     padding-left: 10%;
 }
 
-.mynotes {
-    color: #b4637a;
+.mynotes, a {
+    color: #191724;
     font-size: 20px;
     padding-bottom: 10px;
 }
