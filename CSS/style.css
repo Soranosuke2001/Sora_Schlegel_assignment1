@@ -4,6 +4,10 @@ html, body {
     flex-direction: column;
 }
 
+.indexbody {
+    background-color: #faf4ed;
+}
+
 .leftside, .rightside {
     height: 100%;
     width: 50%;
@@ -16,16 +20,16 @@ html, body {
 .rightside {
     right: 0;
     width: 80%;
-    background-color: white;
+    background-color: #cecacd;
 }
 
 .leftside {
     left: 0;
     width: 20%;
-    background-color: lightgoldenrodyellow;
+    background-color: #faf4ed;
 }
 
-header, footer, .message, .save, .delete, .newnotebutton {
+header, footer, .message, .save, .delete, .newnotebutton, .newnote {
     font-family: 'Hubballi', cursive;
 }
 
@@ -36,7 +40,7 @@ header, footer, .message, .save, .delete, .newnotebutton {
 }
 
 .headerlink, .save{
-    padding-right: 20px
+    padding-right: 20px;
 }
 
 footer {
@@ -53,7 +57,7 @@ footer {
 
 .closemenu {
     border: 0;
-    background-color: white;
+    background-color: #faf4ed;
     font-size: 20px;
     cursor: pointer;
 }
@@ -62,16 +66,9 @@ footer {
     display: flex;
     align-items: flex-start;
     border: 0;
-    background-color: white;
+    background-color: #faf4ed;
     font-size: 20;
     cursor: pointer;
-}
-
-.newnote {
-    display: flex;
-    padding-left: 200px;
-    border: 0;
-    background-color: white;
 }
 
 .noteslist {
@@ -79,28 +76,38 @@ footer {
 }
 
 .mynotes {
-    color: red;
+    color: #b4637a;
     font-size: 20px;
     padding-bottom: 10px;
 }
 
 .notetakingarea {
     display: flex;
-    border-style: solid;
-    border-color: black;
+    border-radius: 12px;
+    background-color: #faf4ed;
     width: 500px;
     height: 400px;
     margin-left: 50px;
 }
 
-.save, .delete, .newnotebutton {
+.message {
+    padding-left: 20px;
+}
+
+.save, .delete, .newnotebutton, .newnote {
+    border-color: #286983;
     border-radius: 12px;
     padding: 10px;
     text-align: center;
-    background-color: white;
+    background-color: #faf4ed;
     margin:4px 2px;
     font-size: 20px;
     cursor: pointer;
+}
+
+.indexnewnote {
+    width: 300px;
+    padding-left: 50px;
 }
 
 .buttons {
