@@ -25,7 +25,7 @@ html, body {
     background-color: lightgoldenrodyellow;
 }
 
-header, footer {
+header, footer, .message, .save, .delete, .newnotebutton {
     font-family: 'Hubballi', cursive;
 }
 
@@ -35,7 +35,7 @@ header, footer {
     list-style-type: none;
 }
 
-.headerlink {
+.headerlink, .save{
     padding-right: 20px
 }
 
@@ -55,6 +55,7 @@ footer {
     border: 0;
     background-color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .openmenu {
@@ -63,6 +64,7 @@ footer {
     border: 0;
     background-color: white;
     font-size: 20;
+    cursor: pointer;
 }
 
 .newnote {
@@ -80,4 +82,29 @@ footer {
     color: red;
     font-size: 20px;
     padding-bottom: 10px;
+}
+
+.notetakingarea {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.save, .delete, .newnotebutton {
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    margin:4px 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons {
+    border-collapse: separate;
+    border-spacing: 80px 50px;
+    padding-left: 50px;
 }
