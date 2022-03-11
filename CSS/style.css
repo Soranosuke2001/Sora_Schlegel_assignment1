@@ -10,17 +10,19 @@ html, body {
     position: fixed;
     top: 0;
     overflow-x: hidden;
+    z-index: 1;
 }
+
 .rightside {
     right: 0;
     width: 70%;
-    background-color: red;
+    background-color: white;
 }
 
 .leftside {
     left: 0;
     width: 30%;
-    background-color: blue;
+    background-color: lightgoldenrodyellow;
 }
 
 header, footer {
@@ -41,6 +43,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: auto;
+    z-index: 2;
 }
 
 .openmenu {
